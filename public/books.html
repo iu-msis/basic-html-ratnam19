@@ -87,15 +87,17 @@
 </div>
 <div align="right" class="col-xl-6 col-md-6 col-sm-6 col-xs-6">
   <div class="col-xl-12 col-md-12 col-sm-12 col-xs-12">
-     <a href="https://i.pinimg.com/736x/0f/1d/1d/0f1d1dff057f62b4501858fcdb2a1526.jpg"><img src="img/devasena7.jpg" height="500" width="400"></a>
+    <!-- image source:https://i.pinimg.com/736x/0f/1d/1d/0f1d1dff057f62b4501858fcdb2a1526.jpg-->
+     <a href="img/devasena7.jpg"><img src="img/devasena7.jpg" height="500" width="400"></a>
   </div>
   <div class="col-xl-12 col-md-12 col-sm-12 col-xs-12">
-     <a href="i.pinimg.com">Source: i.pinimg.com</a>
+     <a href="https://i.pinimg.com/736x/0f/1d/1d/0f1d1dff057f62b4501858fcdb2a1526.jpg">Source: i.pinimg.com</a>
   </div>
 </div>
 <form action="books.html" method="post">
   <div class="col-xl-4 col-md-4 col-sm-4 col-xs-4">
-  <a href="https://pbs.twimg.com/media/Dd9tpwVVQAAgpH9.jpg">Source: pbs.twimg.com<img src="img/devasena5.jpg" height="350" width="300"></a>
+    <!-- image source:https://pbs.twimg.com/media/Dd9tpwVVQAAgpH9.jpg -->
+  <a href="img/devasena5.jpg">Source: pbs.twimg.com<img src="img/devasena5.jpg" height="350" width="300"></a>
 
   </div>
   <div class="col-xl-8 col-md-8 col-sm-8 col-xs-8">
@@ -104,27 +106,28 @@
     </p>
  <div class="form-group">
    <label for="title">Title: </label>
-   <input type="text" class="title"id="title">
+   <input type="string" class="title"id="title" placeholder="Title of the book">
  </div>
  <div class="form-group">
    <label for="author">Author: </label>
-   <input type="text" class="author"id="author">
+   <input type="string" class="author"id="author" placeholder="Author">
  </div>
  <div class="form-group">
    <label for="yr">Year Published: </label>
-   <input type="text" class="yr"id="yr">
+   <input type="integer" min="1900" max="2019" step="1" class="yr"id="yr" placeholder="yyyy">
  </div>
  <div class="form-group">
-   <label for="pub">Published: </label>
-   <input type="text" class="pub"id="pub">
+   <label for="pub">Publisher: </label>
+   <input type="text" class="pub"id="pub" placeholder="Publisher's name">
  </div>
  <div class="form-group">
    <label for="pg">Page Count: </label>
-   <input type="text" class="pg"id="pg">
+   <input type="number" class="pg"id="pg" placeholder="1">
  </div>
  <div class="form-group">
    <label for="msrp">MSRP: </label>
-   <input type="text" class="msrp"id="msrp">
+   $
+   <input type="float" class="msrp"id="msrp" placeholder="1">
  </div>
 <br><br>
 <input type="submit" name="submit" id="submit" value="Submit details">
