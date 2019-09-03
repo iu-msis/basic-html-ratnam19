@@ -1,0 +1,32 @@
+.container{
+  background-color: beige;
+  color: brown;
+}
+header{
+  padding: 30px;
+  background-color: whitesmoke;
+}
+a{
+  color: grey;
+}
+a:hover{
+  color:black;
+}
+#bar{
+  color: purple;
+}
+#bar:hover{
+  color: black;
+}
+.devasena{
+  color:brown;
+}
+footer{
+  color: darkgrey;
+}
+#quote{
+  margin: 10px;
+  padding: 20px;
+  background-color: firebrick;
+  color: black;
+}
