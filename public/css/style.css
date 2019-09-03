@@ -6,10 +6,13 @@ header{
   padding: 30px;
   background-color: whitesmoke;
 }
-a{
+#af{
   color: grey;
 }
-a:hover{
+a{
+  color:grey;
+}
+a:hover,#af:hover{
   color:black;
 }
 #bar{
