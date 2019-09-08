@@ -46,9 +46,9 @@
      <!--Source: https://getbootstrap.com/docs/4.3/content/tables/#table-head-options -->
      <!--Source: https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto -->
    <div class ="col-xl-6 col-md-6 col-sm-6 col-xs-6">
-    <table  class="table table-striped table-hover">
+    <table id="bookstable" class="table table-striped table-hover">
     <thead class="thead-dark">
-    <tr >
+    <tr>
       <th scope="col">Book Title</th>
       <th scope="col">Author(s)</th>
       <th scope="col">Year Published</th>
@@ -85,7 +85,14 @@
     </tbody>
   </table>
 </div>
-<div align="right" class="col-xl-6 col-md-6 col-sm-6 col-xs-6">
+<script src='js/tablesort.js'></script>
+<script src='js/tablesort.number.js'></script>
+<script src='js/tablesort.date.js'></script>
+<script>
+  //tablesort script from: http://tristen.ca/tablesort/demo/
+  new Tablesort(document.getElementById('bookstable'));
+</script>
+<div align="right" class="col-xl-6 col-md-6 col-sm-12 col-xs-12">
   <div class="col-xl-12 col-md-12 col-sm-12 col-xs-12">
     <!-- image source:https://i.pinimg.com/736x/0f/1d/1d/0f1d1dff057f62b4501858fcdb2a1526.jpg-->
      <a href="img/devasena7.jpg"><img src="img/devasena7.jpg" height="500" width="400"></a>
